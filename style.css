@@ -1,0 +1,276 @@
+body,
+html {
+    margin: 0;
+    overflow: hidden;
+    height: 100%
+}
+
+body{
+    margin: 0;
+}
+
+
+
+#menu_background {
+    background: url(produktion/spilstart_web.svg);
+}
+
+/**Spille skærmen**/
+
+#game_background {
+ background:url(produktion/vaerelse.svg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#pigen {
+    background: url(produktion/pige_ked.svg);
+    position: absolute;
+    background-size: contain;
+    height: 50vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    top: 24.5vw;
+    left: 40vw;
+}
+
+#bobbel1{
+  background: url(produktion/tankebobbel1.svg);
+    position: absolute;
+    background-size: contain;
+    height: 35vh;
+    width: 35vw;
+    background-repeat: no-repeat;
+    top: 25vw;
+    left: 17vw;
+}
+
+#bobbel2{
+  background: url(produktion/tankebobbel2.svg);
+    position: absolute;
+    background-size: contain;
+    height: 35vh;
+    width: 35vw;
+    background-repeat: no-repeat;
+    top: 10vw;
+    left: 25vw;
+}
+
+#bobbel3{
+  background: url(produktion/tankebobbel3.svg);
+    position: absolute;
+    background-size: contain;
+    height: 35vh;
+    width: 35vw;
+    background-repeat: no-repeat;
+    top: 0.5vw;
+    left: 40vw;
+    transform: rotate(-35deg)
+}
+
+#bobbel4{
+  background: url(produktion/tankebobbel4.svg);
+    position: absolute;
+    background-size: contain;
+    height: 35vh;
+    width: 35vw;
+    background-repeat: no-repeat;
+    top: 13vw;
+    left: 55vw;
+}
+
+#bobbel5{
+  background: url(produktion/tankebobbel5.svg);
+    position: absolute;
+    background-size: contain;
+    height: 35vh;
+    width: 35vw;
+    background-repeat: no-repeat;
+    top: 30vw;
+    left: 57vw;
+}
+
+#points{
+  background: url(produktion/pointsystem.svg);
+    position: absolute;
+    background-size: contain;
+    height: 100vh;
+    width: 7.4vw;
+    background-repeat: no-repeat;
+    top: 1vw;
+    left: 93vw;
+}
+
+#energy{
+  background: url(produktion/liv.svg);
+    position: absolute;
+    background-size: contain;
+    height: 100vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+    top: 43vw;
+    left: 0.5vw;
+}
+
+#time{
+  background: url(produktion/timer.svg);
+    position: absolute;
+    background-size: contain;
+    height: 8vh;
+    width: 10vw;
+    background-repeat: no-repeat;
+    top: 0.5vw;
+    left: 45vw;
+}
+
+/** Titelskærm**/
+
+#start {
+    display: none;
+    background: url(produktion/spilstart_web.svg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#startknap{
+    display: none;
+    background: url(produktion/play_icon.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 11.5vh;
+    width: 12vw;
+    background-size: contain;
+    top: 23vw;
+    left: 43vw;
+}
+
+#controlknap{
+    display: none;
+    background: url(produktion/control_icon.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vw;
+    background-size: contain;
+    top: 43vw;
+    left: 3vw;
+}
+
+/** Settingsmenu **/
+
+#settings{
+    display: none;
+    background: url(produktion/vaerelse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#controlpanel{
+    display: none;
+    background: url(produktion/controlpanel.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vw;
+    background-size: contain;
+    top: 13vw;
+    left: 35vw;
+}
+
+#musikknap{
+    display: none;
+     background: url(produktion/music_knap.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 6vw;
+    background-size: contain;
+    top: 26.8vw;
+    left: 51vw;
+}
+
+#lydknap {
+    display: none;
+     background: url(produktion/soundeffect_knap.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 6vw;
+    background-size: contain;
+    top: 22.3vw;
+    left: 51vw;
+}
+
+#exitknap {
+    display: none;
+     background: url(produktion/exit_icon.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vw;
+    background-size: contain;
+    top: 15vw;
+    left: 54.5vw;
+}
+
+/*** Game over **/
+
+#gameover{
+    display: none;
+     background:  url(produktion/tabersiden_web.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#tryagain{
+    display: none;
+     background: url(produktion/tryagain_icon.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 15vw;
+    background-size: contain;
+    top: 23vw;
+    left: 42vw;
+}
+
+
+/*** level complete **/
+
+#levelcomplete{
+    display: none;
+    background:  url(produktion/vinderside_web.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+
